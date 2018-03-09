@@ -5,7 +5,7 @@
 class Arete
 {
     public:
-        Arete(Sommet A, Sommet B);
+        Arete(Sommet *A, Sommet *B);
         ~Arete();
 
         Sommet Getm_A() { return m_A; }

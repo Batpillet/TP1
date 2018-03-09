@@ -13,7 +13,7 @@ int main()
     Graphe G;
     std::vector<Arete*>matriceArete;
 
-    G.RecupFichier(influence, matriceArete);
+    G.RecupFichier(influence, &matriceArete);
     G.affiche(matriceArete);
 
     return 0;

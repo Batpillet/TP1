@@ -17,20 +17,18 @@ Graphe::~Graphe()
 void Graphe::RecupFichier(std::ifstream & influence, std::vector<Arete*> m_matriceArete)
 {
     std::string a, b;
-    Sommet A, B;
+
     while (influence >> a >> b)
     {
-        A.Setm_nom(a);
-        B.Setm_nom(b);
+        Sommet *A = new Sommet(a);
+        Sommet *B = new Sommet(b);
         Arete T(A,B);
         m_matriceArete.push_back(&T);
     }
-    std::cout << m_matriceArete.size() << std::endl;
+
     for(unsigned int i(0) ; i<m_matriceArete.size() ; ++i)
     {
-        std::cout << i << std::endl;
-        std::cout << m_matriceArete[i]->Getm_A().Getm_nom() << std::endl;
-        std::cout << m_matriceArete[i]->Getm_B().Getm_nom() << std::endl;
+        std::cout << m_matriceArete[i]->Getm_A().Getm_nom() << " influence " << m_matriceArete[i]->Getm_B().Getm_nom() << std::endl;
     }
 }
 
@@ -38,7 +36,6 @@ void Graphe::affiche(std::vector<Arete*> m_matriceArete)
 {
     for(unsigned int i(0) ; i<m_matriceArete.size() ; ++i)
     {
-        std::cout << m_matriceArete[i]->Getm_A().Getm_nom() << std::endl;
-        std::cout << m_matriceArete[i]->Getm_B().Getm_nom() << std::endl;
+        std::cout << m_matriceArete[i]->Getm_A().Getm_nom() << " influence " << m_matriceArete[i]->Getm_B().Getm_nom() << std::endl;
     }
 }
