@@ -17,7 +17,7 @@ class Graphe
         std::vector<Sommet*> GetmatriceSommet() { return m_matriceSommet; }
         void SetmatriceSommet(std::vector<Sommet*> val) { m_matriceSommet = val; }
 
-        void RecupFichier(std::ifstream & influence, std::vector<Arete*> m_matriceArete);
+        void RecupFichier(std::ifstream & influence, std::vector<Arete*> *m_matriceArete);
         void affiche(std::vector<Arete*> m_matriceArete);
 
     protected:
