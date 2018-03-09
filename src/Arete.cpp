@@ -2,7 +2,7 @@
 #include <Sommet.h>
 
 Arete::Arete(Sommet A, Sommet B)
-:Sommet m_A(A), Sommet m_B(B)
+:m_A(A), m_B(B)
 {
     //ctor
 }

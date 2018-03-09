@@ -1,6 +1,6 @@
 #ifndef ARETE_H
 #define ARETE_H
-
+#include <Sommet.h>
 
 class Arete
 {

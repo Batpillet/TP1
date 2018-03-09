@@ -1,6 +1,8 @@
 #ifndef GRAPHE_H
 #define GRAPHE_H
-
+#include <fstream>
+#include <vector>
+#include <Arete.h>
 
 class Graphe
 {
@@ -14,6 +16,9 @@ class Graphe
         void SetmatriceArete(std::vector<Arete*> val) { m_matriceArete = val; }
         std::vector<Sommet*> GetmatriceSommet() { return m_matriceSommet; }
         void SetmatriceSommet(std::vector<Sommet*> val) { m_matriceSommet = val; }
+
+        void RecupFichier(std::ifstream & influence, std::vector<Arete*> m_matriceArete);
+        void affiche(std::vector<Arete*> m_matriceArete);
 
     protected:
 
