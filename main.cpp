@@ -1,9 +1,8 @@
 #include <iostream>
-
-using namespace std;
+#include <Sommet.h>
+#include <string>
 
 int main()
 {
-    cout << "Hello world!" << endl;
     return 0;
 }
