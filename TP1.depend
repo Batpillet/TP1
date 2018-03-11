@@ -8,7 +8,7 @@
 	<Graphe.h>
 	<Arete.h>
 
-1520584236 c:\users\alex\documents\tp1\tp1\include\sommet.h
+1520796723 c:\users\alex\documents\tp1\tp1\include\sommet.h
 	<string>
 
 1520588822 source:c:\users\alex\documents\tp1\tp1\src\arete.cpp
@@ -18,18 +18,52 @@
 1520588776 c:\users\alex\documents\tp1\tp1\include\arete.h
 	<Sommet.h>
 
-1520584314 source:c:\users\alex\documents\tp1\tp1\src\sommet.cpp
+1520796723 source:c:\users\alex\documents\tp1\tp1\src\sommet.cpp
 	"Sommet.h"
 	<string>
 
-1520592275 source:c:\users\alex\documents\tp1\tp1\src\graphe.cpp
+1520797582 source:c:\users\alex\documents\tp1\tp1\src\graphe.cpp
 	"Graphe.h"
 	<vector>
 	<fstream>
 	<iostream>
 
-1520589745 c:\users\alex\documents\tp1\tp1\include\graphe.h
+1520796723 c:\users\alex\documents\tp1\tp1\include\graphe.h
 	<fstream>
 	<vector>
 	<Arete.h>
+
+1520727326 source:c:\users\batpi\desktop\new\tp1\main.cpp
+	<iostream>
+	<Sommet.h>
+	<string>
+	<fstream>
+	<Sommet.h>
+	<Graphe.h>
+	<Arete.h>
+
+1520727983 c:\users\batpi\desktop\new\tp1\include\sommet.h
+	<string>
+
+1520728007 c:\users\batpi\desktop\new\tp1\include\graphe.h
+	<fstream>
+	<vector>
+	<Arete.h>
+
+1520727326 c:\users\batpi\desktop\new\tp1\include\arete.h
+	<Sommet.h>
+
+1520727326 source:c:\users\batpi\desktop\new\tp1\src\arete.cpp
+	"Arete.h"
+	<Sommet.h>
+
+1520727983 source:c:\users\batpi\desktop\new\tp1\src\sommet.cpp
+	"Sommet.h"
+	<string>
+
+1520728142 source:c:\users\batpi\desktop\new\tp1\src\graphe.cpp
+	"Graphe.h"
+	<vector>
+	<fstream>
+	<iostream>
 

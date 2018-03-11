@@ -16,11 +16,11 @@ Graphe::~Graphe()
 
 void Graphe::RecupFichier(std::ifstream & influence, std::vector<Arete*> *m_matriceArete)
 {
-    std::string a, b;
+    char a, b;
 
     while (influence >> a >> b)
     {
-        if((a[0] >= 'A' && a[0] <= 'Z') || (a[0] >= 'a' && a[0] <= 'z') && ((b[0] >= 'A' && b[0] <= 'Z') || (b[0] >= 'a' && b[0] <= 'z')))
+        if(((a >= 'A' && a <= 'Z') || (a >= 'a' && a <= 'z')) && ((b >= 'A' && b <= 'Z') || (b >= 'a' && b <= 'z')))
         {
             Sommet *A = new Sommet(a);
             Sommet *B = new Sommet(b);

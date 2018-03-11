@@ -7,7 +7,7 @@
 class Graphe
 {
     public:
-        Graphe(/*int ordre, std::vector<Arete*> matriceArete, std::vector<Sommet*> matriceSommet*/);
+        Graphe();
         ~Graphe();
 
         int Getordre() { return m_ordre; }

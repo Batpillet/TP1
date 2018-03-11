@@ -6,16 +6,14 @@ class Sommet
 {
     public:
         Sommet();
-        Sommet(std::string nom);
+        Sommet(char nom);
         ~Sommet();
 
-        std::string Getm_nom() { return m_nom; }
-        void Setm_nom(std::string val) { m_nom = val; }
-
-    protected:
+        char Getm_nom() { return m_nom; }
+        void Setm_nom(char val) { m_nom = val; }
 
     private:
-        std::string m_nom;
+        char m_nom;
 };
 
 #endif // SOMMET_H
