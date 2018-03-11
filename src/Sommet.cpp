@@ -2,12 +2,12 @@
 #include <string>
 
 Sommet::Sommet()
-:m_nom("")
+:m_nom()
 {
     //ctor
 }
 
-Sommet::Sommet(std::string nom)
+Sommet::Sommet(char nom)
 :m_nom(nom)
 {
     //ctor

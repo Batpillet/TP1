@@ -33,3 +33,37 @@
 	<vector>
 	<Arete.h>
 
+1520727326 source:c:\users\batpi\desktop\new\tp1\main.cpp
+	<iostream>
+	<Sommet.h>
+	<string>
+	<fstream>
+	<Sommet.h>
+	<Graphe.h>
+	<Arete.h>
+
+1520727983 c:\users\batpi\desktop\new\tp1\include\sommet.h
+	<string>
+
+1520728007 c:\users\batpi\desktop\new\tp1\include\graphe.h
+	<fstream>
+	<vector>
+	<Arete.h>
+
+1520727326 c:\users\batpi\desktop\new\tp1\include\arete.h
+	<Sommet.h>
+
+1520727326 source:c:\users\batpi\desktop\new\tp1\src\arete.cpp
+	"Arete.h"
+	<Sommet.h>
+
+1520727983 source:c:\users\batpi\desktop\new\tp1\src\sommet.cpp
+	"Sommet.h"
+	<string>
+
+1520728142 source:c:\users\batpi\desktop\new\tp1\src\graphe.cpp
+	"Graphe.h"
+	<vector>
+	<fstream>
+	<iostream>
+
