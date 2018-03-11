@@ -20,7 +20,7 @@ void Graphe::RecupFichier(std::ifstream & influence, std::vector<Arete*> *m_matr
 
     while (influence >> a >> b)
     {
-        if((a[0] >= 'A' && a[0] <= 'Z') || (a[0] >= 'a' && a[0] <= 'z') && (b[0] >= 'A' && b[0] <= 'Z') || (b[0] >= 'a' && b[0] <= 'z'))
+        if((a[0] >= 'A' && a[0] <= 'Z') || (a[0] >= 'a' && a[0] <= 'z') && ((b[0] >= 'A' && b[0] <= 'Z') || (b[0] >= 'a' && b[0] <= 'z')))
         {
             Sommet *A = new Sommet(a);
             Sommet *B = new Sommet(b);
