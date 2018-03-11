@@ -7,8 +7,8 @@ Sommet::Sommet()
     //ctor
 }
 
-Sommet::Sommet(char nom)
-:m_nom(nom)
+Sommet::Sommet(char nom, int numero)
+:m_nom(nom), m_numero(numero)
 {
     //ctor
 }

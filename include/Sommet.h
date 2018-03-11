@@ -6,7 +6,7 @@ class Sommet
 {
     public:
         Sommet();
-        Sommet(char nom);
+        Sommet(char nom, int numero);
         ~Sommet();
 
         char Getm_nom() { return m_nom; }
@@ -14,6 +14,7 @@ class Sommet
 
     private:
         char m_nom;
+        int m_numero;
 };
 
 #endif // SOMMET_H
